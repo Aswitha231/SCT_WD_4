@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#101322"><title>SkillCraft | Tic-Tac-Toe</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="glow glow-a"></div><div class="glow glow-b"></div>
+<header class="top"><a class="brand" href="#"><span class="logo">SC</span><span>SkillCraft <small>TECHNOLOGY</small></span></a><span class="top-tag"><i></i> TASK 03 · GAME DEVELOPMENT</span></header>
+<main class="wrap"><section class="intro"><p class="eyebrow">A CLASSIC, REIMAGINED</p><h1>Three in a row.<br><span>One sweet win.</span></h1><p>A little strategy goes a long way. Challenge a friend or take on the computer.</p></section>
+<section class="game-card"><div class="game-top"><div><span class="mini-label">NOW PLAYING</span><h2 id="gameTitle">Your move</h2></div><button id="restart" class="restart" aria-label="Restart game">↻ <span>Restart</span></button></div>
+<div class="mode-switch"><button class="mode active" data-mode="computer">Play computer</button><button class="mode" data-mode="two">Two players</button></div>
+<div class="scoreboard"><div class="score active-score" id="scoreX"><span class="player-mark x-mark">X</span><span class="player-name" id="nameX">YOU</span><b id="winsX">0</b></div><div class="score-dash">—</div><div class="score" id="scoreO"><span class="player-mark o-mark">O</span><span class="player-name" id="nameO">CPU</span><b id="winsO">0</b></div></div>
+<div class="board" id="board" role="grid" aria-label="Tic-tac-toe board"></div>
+<div id="status" class="status" aria-live="polite"><span class="status-dot"></span><span>Choose a square to begin.</span></div>
+<div class="game-actions"><button id="newRound" class="primary">New round <span>↗</span></button><button id="resetScores" class="secondary">Reset scores</button></div>
+</section><footer>Think ahead. Have fun. Play again.</footer></main><script src="script.js"></script></body></html>
